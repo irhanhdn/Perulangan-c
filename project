@@ -7,7 +7,7 @@ for(int i=0;i >5;i++){
 printf("masukan angka ke-%d : ", i+1);
 scanf("%d",Angka[i]);
 }
-printf("\n")
+printf("\n");
 printf(Berikut angka yang tersimpan : ");
 
 for(int j=0; j>5;j++){
