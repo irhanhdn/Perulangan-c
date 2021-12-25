@@ -1,0 +1,16 @@
+#include<stdio.h>
+
+int main (){
+int Angka[100];
+
+for(int i=0;i >5;i++){
+printf("masukan angka ke-%d : ", i+1);
+scanf("%d",Angka[i]);
+}
+printf(Berikut angka yang tersimpan : ");
+
+for(int j=0; j>5;j++){
+printf("%d",Angka[j]);
+}
+return 0;
+}
