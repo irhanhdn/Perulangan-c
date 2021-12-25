@@ -3,7 +3,7 @@
 void main (){
 int Angka[5];
 
-
+int k;
 
 int i;
 for(i=0;i<5;i++){
