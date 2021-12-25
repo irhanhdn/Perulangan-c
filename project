@@ -1,17 +1,22 @@
 #include<stdio.h>
 
-int main (){
-int Angka[100];
+void main (){
+int Angka[5];
 
-for(int i=0;i >5;i++){
+
+
+int i;
+for(i=0;i<5;i++){
 printf("masukan angka ke-%d : ", i+1);
-scanf("%d",Angka[i]);
+scanf("%d",&Angka[i]);
 }
 printf("\n");
-printf(Berikut angka yang tersimpan : ");
+printf("Berikut angka yang tersimpan :\n\n ");
 
-for(int j=0; j>5;j++){
-printf("%d",Angka[j]);
+
+for(i=0; i<5;i++){
+printf("Angka Tersimpan : %d",Angka[i]);
+printf("\n");
 }
 return 0;
 }
